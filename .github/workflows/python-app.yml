@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install git+https://github.com/5ec1cff/payload-dumper
     - name: Run
       run: |
-        pip install git+https://github.com/5ec1cff/payload-dumper
         payload_dumper --partitions boot https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.24.7.15.DEV/miui_MATISSE_OS1.0.24.7.15.DEV_6f5f441f28_14.0.zip
