@@ -30,3 +30,4 @@ jobs:
     - name: Run
       run: |
         payload_dumper --partitions boot https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.24.7.15.DEV/miui_MATISSE_OS1.0.24.7.15.DEV_6f5f441f28_14.0.zip
+        ls -A
