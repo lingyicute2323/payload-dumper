@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       LINK:
-        description: 'Payload.bin rom link'
+        description: 'The payload or zip link'
         required: true
       PART:
         description: 'The name of the partition you want to extract'
